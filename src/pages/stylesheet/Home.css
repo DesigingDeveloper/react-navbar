@@ -1,0 +1,42 @@
+.title {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-family: oswald;
+    font-size: 65px;
+    padding-top: 150px;
+    text-transform: uppercase;
+    margin: 0%;
+
+}
+
+.subtitle {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-family: oswald;
+    font-size: 25px;
+    margin: 2%;
+}
+
+.bg {
+    background-color: #0054A3;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 170px;
+}
+
+.button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    padding: 10px 20px;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: #0054A3;
+    background-color: #ffffff;
+}

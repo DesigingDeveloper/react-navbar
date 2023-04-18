@@ -4,16 +4,17 @@
 
 body {
   margin: 0;
+  font-family: oswald;
 }
 
 .container {
-  margin: 1rem;
+  /* margin: 1rem; */
   text-align: center;
 }
 
 .nav {
-  background-color: #333;
-  color: white;
+  background-color: #0054A3;
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -40,12 +41,4 @@ body {
   display: flex;
   align-items: center;
   padding: .25rem;
-}
-
-.nav li.active {
-  background-color: #555;
-}
-
-.nav li:hover {
-  background-color: #777;
 }
